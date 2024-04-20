@@ -10,7 +10,7 @@ export const createSingleAccountSchema = z.object({
   password: z.string().min(6),
 });
 
-// to Get The Type
+// to get the type
 // z.infer<typeof createSingleAccountSchema> 
 ```
 # Create The Form 
